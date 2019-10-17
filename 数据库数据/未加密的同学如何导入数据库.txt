@@ -1,0 +1,6 @@
+1. mongoimport -d alibaixiu -c categories --file .\categories.json
+2. mongoimport -d alibaixiu -c posts --file .\posts.json
+3. mongoimport -d alibaixiu -c comments --file .\comments.json
+4. mongoimport -d alibaixiu -c users --file .\users.json
+5. mongoimport -d alibaixiu -c slides --file .\slides.json
+

@@ -1,0 +1,10 @@
+如何开启加密模式并添加账号：
+1、把C:\Program Files\MongoDB\Server\4.1\bin添加到环境变量
+2、用管理员权限打开cmd,然后输入mongo回车一下
+3、执行use admin
+4、执行db.createUser({user:'root',pwd:'root',roles:['root']})
+5、输入CTRL+C退出mongo
+6、输入net stop mongodb然后回车
+7、输入mongod --remove然后回车
+8、mongod --logpath="C:\Program Files\MongoDB\Server\4.1\log\mongod.log" --dbpath="C:\Program Files\MongoDB\Server\4.1\data" --install –-auth
+9、输入net start mongodb
