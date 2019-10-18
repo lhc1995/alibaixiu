@@ -12,5 +12,3 @@ function dateFormat(date) {
     date = new Date(date);
     return date.getFullYear() + '年' + (date.getMonth() + 1) + '月' + date.getDate() + '日';
 }
-// 方式一
-// template.defaults.imports.dateFormat = dateFormat;
